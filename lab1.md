@@ -1,1 +1,1 @@
-Screenshot of ![tree output](images/tree.jpg)
+Screenshot of ![tree output](images/tree.png)
