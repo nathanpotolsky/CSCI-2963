@@ -1,4 +1,3 @@
-## Name: Mukkai S. Krishnamoorthy ( moorthy) - 
-### email: moorthy@cs.rpi.edu 
-### office Lally 305
-Photo of Moorthy ![Moorthy](images/msk.jpg)
+## Name: Nathan Potolsky
+### email: potoln@rpi.edu 
+A photo of me, [Nathan](images/nathan.jpg)
