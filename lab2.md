@@ -8,4 +8,8 @@ Linux uses the GPL v2 license, which allows for the running, review, modificatio
 
 Example project idea: A lightweight operating system that can be used to identify computer issues with different diagonstic tests, format hard drives, clone disk images, etc.  The operating system could go on a flash drive or a cd and would be generally used for an IT helpdesk or a savy home computer user.  For this project, I would use the MIT license.  I'm not looking to make money off this idea, I'm okay with people making their own versions, I would only want to be given original credit.  Additionally, this license appeals to me because I would not want to be held responsible if anything were to go wrong, which very well could happen when testing/formatting/cloning hardware.
 
+Apache seems to be better for business as you can use it for business purposes, it can be used privately, it can be sub-license, uses patent claims, and can have a warrenty for the software.  Additionally, the businesses name, trademarks, and logos are protected.  The GPL and LGPL licenses are similar and I feel that would be good for developers and the common good alike.  Software with these licenses allow for open use and editing.  This is a very useful thing for developers, which, in turn, is beneficial to the common good too.
+
+https://github.com/nathanpotolsky/test-repo/blob/master/LICENSE
+
 ![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png) This work is licensed under a http://creativecommons.org/licenses/by/4.0/ Creative Commons Attribution 4.0 International License.
