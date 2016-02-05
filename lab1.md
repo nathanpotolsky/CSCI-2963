@@ -1,3 +1,11 @@
+The ten criteria of Open Source provide the framework for Open Source Software and how Open Source is more than just providing the source code.  The ten criteria emphasize flexibility, openness, freedom, and that the software shouldn't be used for bad.  The software should be able to be used, read, and modified by anyone (according to the way it was originally licensed).  This includes being used for business, research, or government purposes.  It just can't be used to cause harm.  The code cannot be restricted including to what technology it runs on, say only HP products, or requiring other software also be open source.
+
+Eric Raymond's article 'How To Ask Questions The Smart Way,' details the best ways to get solutions to your tech issues.  You should try to solve it as much as possible on your own.  If you have done this, and need outside help, make sure to list what ways you've tried to solve the issue on your own.  You must also use consise, presise, language to describe the problems.  Don't be vauge or longwinded if you want to get help.  Eric lists different resources users may want to utilize if they need help, how they should post the question, and how to follow up, be it replying to people or posting the solution you may have later found.
+
+Two suggestions I have for answering questions in a helpful way are as follows:
+1) If you know the answer, explain it in a way that the querent will understand, avoiding overly technical terms, or atleast, explaining them in a way that will promote learning.
+2) If the querent acted in a way that goes against the norms of your community, inform them instead of igoring or chastising them.
+
 Screenshot of tree output ![tree output](images/tree.png)
 Screenshot of regexone ![regexone](images/regexone.png)
 Screenshot of crossword, solutions are help, bobe, oooo, and **//![crossword](images/crossword.png)
