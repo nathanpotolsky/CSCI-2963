@@ -24,6 +24,6 @@ https://github.com/tassiahmed/SplitScreen - Yes - Apache License V2 https://en.w
 
 https://github.com/makinj/MeNext - Yes - MIT License https://en.wikipedia.org/wiki/MIT_License
 
-
+For an example project, I would want to program a way for people to way part of a video on one device and continue watching on another.  Say you're watching a movie using a program like VLC media player on your computer, you get about half way through, but you have to stop and do something else.  With my project idea, you would be able to continue watching where you left off on your phone with, say, the VLC Media Player app.  The data would need to be stored on the cloud or on a personal media server.  The app and computer version would have my extension added on and would report/pull the time data to/from the server.  This is one idea I've had that, as far to my knowledge, does not yet exist.  The users/customers of the project would be people who watch videos on their computers and phones and would like a way for their time data to be shared across devices.  The license I would use for this would be the MIT license for the same reasons as listed above for number six.
 
 ![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png) This work is licensed under a http://creativecommons.org/licenses/by/4.0/ Creative Commons Attribution 4.0 International License.
