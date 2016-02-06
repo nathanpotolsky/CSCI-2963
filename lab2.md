@@ -12,4 +12,18 @@ Apache seems to be better for business as you can use it for business purposes, 
 
 https://github.com/nathanpotolsky/test-repo/blob/master/LICENSE
 
+Website     -     License Present     -     License
+
+https://github.com/AutoRoute/node - Yes - MIT License https://en.wikipedia.org/wiki/MIT_License
+
+https://github.com/CloudBench-IDE/cloudbench - Yes - Apache License V2 https://en.wikipedia.org/wiki/Apache_License
+
+https://github.com/RCOS-Grading-Server/HWserver - Yes - BSD License https://en.wikipedia.org/wiki/BSD_licenses
+
+https://github.com/tassiahmed/SplitScreen - Yes - Apache License V2 https://en.wikipedia.org/wiki/Apache_License
+
+https://github.com/makinj/MeNext - Yes - MIT License https://en.wikipedia.org/wiki/MIT_License
+
+
+
 ![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png) This work is licensed under a http://creativecommons.org/licenses/by/4.0/ Creative Commons Attribution 4.0 International License.
