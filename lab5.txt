@@ -12,3 +12,125 @@ CMakeCache.txt  cmake_install.cmake  Makefile          TutorialConfig.h.in
 CMakeFiles      CMakeLists.txt       TutorialConfig.h  tutorial.cxx
 
 Step 2:
+
+ls of the folder
+
+CMakeCache.txt       CMakeLists.txt  TutorialConfig.h
+CMakeFiles           Makefile        TutorialConfig.h.in
+cmake_install.cmake  MathFunctions   tutorial.cxx
+
+ls of the MathFunctions Folder
+
+CMakeFiles  cmake_install.cmake  CMakeLists.txt  Makefile  mysqrt.cxx
+
+cat of mysqrt.cxx
+
+#include <math.h>
+
+double sqrt(double x) {
+    if (x <= 0)
+        return 0;
+    int exp = 0;
+    x = frexp(x, &exp);
+    if (exp & 1) {
+        exp--;
+        x *= 2;
+    }
+    double y = (1+x)/2;
+    double z = 0;
+    while (y != z) {
+        z = y;
+        y = (y + x/y) / 2;
+    }
+    return ldexp(y, exp/2);
+}
+
+Step 3:
+
+CMakeLists.txt
+
+cmake_minimum_required (VERSION 2.6)
+project (Tutorial)
+# The version number.
+set (Tutorial_VERSION_MAJOR 1)
+set (Tutorial_VERSION_MINOR 0)
+ 
+# configure a header file to pass some of the CMake settings
+# to the source code
+configure_file (
+  "${PROJECT_SOURCE_DIR}/TutorialConfig.h.in"
+  "${PROJECT_BINARY_DIR}/TutorialConfig.h"
+  )
+ 
+# should we use our own math functions?
+option (USE_MYMATH
+	"Use tutorial provided math implementation" ON)
+
+# add the MathFunctions library?
+
+# add the install targets
+
+install (TARGETS Tutorial DESTINATION bin)
+install (FILES "${PROJECT_BINARY_DIR}/TutorialConfig.h"        
+         DESTINATION include)
+
+if (USE_MYMATH)
+  include_directories ("${PROJECT_SOURCE_DIR}/MathFunctions")
+  add_subdirectory (MathFunctions)
+  set (EXTRA_LIBS ${EXTRA_LIBS} MathFunctions)
+endif (USE_MYMATH)
+ 
+# add the executable
+add_executable (Tutorial tutorial.cxx)
+target_link_libraries (Tutorial  ${EXTRA_LIBS})
+
+include(CTest)
+
+# does the application run
+add_test (TutorialRuns Tutorial 25)
+ 
+# does it sqrt of 25
+add_test (TutorialComp25 Tutorial 25)
+ 
+set_tests_properties (TutorialComp25 
+  PROPERTIES PASS_REGULAR_EXPRESSION "25 is 5")
+ 
+# does it handle negative numbers
+add_test (TutorialNegative Tutorial -25)
+set_tests_properties (TutorialNegative
+  PROPERTIES PASS_REGULAR_EXPRESSION "-25 is 0")
+ 
+# does it handle small numbers
+add_test (TutorialSmall Tutorial 0.0001)
+set_tests_properties (TutorialSmall
+  PROPERTIES PASS_REGULAR_EXPRESSION "0.0001 is 0.01")
+ 
+# does the usage message work?
+add_test (TutorialUsage Tutorial)
+set_tests_properties (TutorialUsage
+  PROPERTIES 
+  PASS_REGULAR_EXPRESSION "Usage:.*number")
+
+#define a macro to simplify adding tests, then use it
+macro (do_test arg result)
+  add_test (TutorialComp${arg} Tutorial ${arg})
+  set_tests_properties (TutorialComp${arg}
+    PROPERTIES PASS_REGULAR_EXPRESSION ${result})
+endmacro (do_test)
+ 
+# do a bunch of result based tests
+do_test (25 "25 is 5")
+do_test (-25 "-25 is 0")
+
+Step 4:
+
+TutorialConfig.h.in after edits
+
+// the configured options and settings for Tutorial
+#define Tutorial_VERSION_MAJOR @Tutorial_VERSION_MAJOR@
+#define Tutorial_VERSION_MINOR @Tutorial_VERSION_MINOR@
+#cmakedefine USE_MYMATH
+
+// does the platform provide exp and log functions?
+#cmakedefine HAVE_LOG
+#cmakedefine HAVE_EXP
