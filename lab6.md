@@ -125,3 +125,5 @@ CloudBench:
 SplitScreen:
 
 <put youtube link here>
+
+![gitstats](/images/gitstats.png)
