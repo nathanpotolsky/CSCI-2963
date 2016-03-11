@@ -30,26 +30,14 @@ SplitScreen
   * Latest Commit: March 7, 2016
   * Current Brances: Master, DragFix, side-snap
 
-cloudbench
+Cloudbench
 
-1231 lines total
+* 1231 lines total
 
-2 contributors
+* 2 contributors
 
-Commit 1: (a062af793fd2cc0ed8fbf1957400b4fe6d8777af) Added description of repository as a readme
+* Commit 1: (a062af793fd2cc0ed8fbf1957400b4fe6d8777af) Added description of repository as a readme
 
-Commit 38: (62c4fc23bbc7016a0234b15d61f8a6d317f32654) Merged a pull request that added files for static javascript functionality.
+* Commit 38: (62c4fc23bbc7016a0234b15d61f8a6d317f32654) Merged a pull request that added files for static javascript functionality.
 
-Branches
-
-- master
-
-- copy
-
-- gh-pages
-
-- new_ui
-
-- nodes
-
-- tmp_branch
+* Branches: master - copy - gh-pages - new_ui - nodes - tmp_branch
