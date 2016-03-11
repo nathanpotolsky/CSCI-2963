@@ -37,15 +37,69 @@ Cloudbench:
 * Commit 38: (62c4fc23bbc7016a0234b15d61f8a6d317f32654) Merged a pull request that added files for static javascript functionality.
 * Branches: master - copy - gh-pages - new_ui - nodes - tmp_branch
 
-Comparison
+#-Comparison-
 
 Observatory:
 
+Git information by hand vs GitStats:
+Contributors - gitstats says there are 30, but I found only 26
+Lines of code - I found 11592 vs 11506
+First and latest commit - gitstats is consistent with what I found by hand
+Current branches: gitstats is consistent with what I found by hand
+
 Auto Route:
+* Contributors - GitStats shows 8 contributors, 3 more than the 5 from before.  These 3 users have contributed very little to the project so I assume that's why GitHub doesn't list them
+* Lines of code - 52,071, a little higher than the 52,066 I got before
+* Report Period
+  2015-02-06 22:52:47 to 2016-02-29 14:56:26
+  Age
+  388 days, 137 active days (35.31%)
+  This fits with what I found before
+* Current branches - Couldn't find branch information in GitStats
 
 SharpNav:
- 
+
+Git information by hand vs GitStats:
+Contributors - gitstats says there are 30, but I found only 26
+Lines of code - I found 11592 vs 11506
+First and latest commit - gitstats is consistent with what I found by hand
+Current branches: gitstats is consistent with what I found by hand
+
+COMPARISONS (GitStats -> Hand):
+ * Contributors - 14 - > 10
+ * Lines of code -  48394 - > 53870
+ * First commit - 8/21/13 - > 8/18/13
+ * Latest commit - 2/7/16 - > 2/7/16
+ * Current branches - Branches are equivalent
+
 SplitScreen:
 
-Cloudbench:
+COMPARISONS (GitStats -> Hand):
+ * Contributors - 5 -> 4
+ * Lines of code -  3988 -> 5516
+ * First commit - 9/8/15 - > 9/6/15
+ * Latest commit - 3/7/16 -> 3/7/16
+ * Current branches - Branches are equivalent
 
+Cloudbench:
+1231 lines total
+
+2 contributors
+
+Commit 1: (a062af793fd2cc0ed8fbf1957400b4fe6d8777af) Added description of repository as a readme
+
+Commit 38: (62c4fc23bbc7016a0234b15d61f8a6d317f32654) Merged a pull request that added files for static javascript functionality.
+
+Branches
+- master
+- copy
+- gh-pages
+- new_ui
+- nodes
+- tmp_branch
+
+Git Stats:
+
+All the same data line up: Number of lines, contributors, and commit info were all in accordance with what I found, but with more details in a more readable format. There didn't seem to be info on branch/merge history, though. 
+
+This is a pretty small project with few contributors, so I don't expect there to be much of a discrepancy in the data.
