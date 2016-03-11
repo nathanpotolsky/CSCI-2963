@@ -103,3 +103,25 @@ Git Stats:
 All the same data line up: Number of lines, contributors, and commit info were all in accordance with what I found, but with more details in a more readable format. There didn't seem to be info on branch/merge history, though. 
 
 This is a pretty small project with few contributors, so I don't expect there to be much of a discrepancy in the data.
+
+#-Videos-
+
+Observatory:
+
+<put youtube link here>
+
+Auto-Route:
+
+https://www.youtube.com/watch?v=-fNPgo-nkYM
+
+SharpNav:
+
+<put youtube link here>
+
+CloudBench:
+
+<put youtube link here>
+
+SplitScreen:
+
+<put youtube link here>
