@@ -16,24 +16,36 @@ Auto Route:
 * the latest commit: Feb 29, 2016
 * the current branches: master code_duplication robustness tun-server skip_root ping-test-cleanup ping-test update_vendoring fix_autodiscover_test add_race_test check_for_amount refactor_structure add_network_sim vendor
 
-SharpNav
+SharpNav:
   * Contributors:  10
   * Lines:  53,870 lines
   * First Commit: August 18, 2013
   * Latest Commit: February 7, 2016
   * Current Branches: Master, gh-pages
   
-SplitScreen
+SplitScreen:
   * Contributors: 4
   * Lines: 5516 Lines
   * First Commit: September 6, 2015
   * Latest Commit: March 7, 2016
   * Current Brances: Master, DragFix, side-snap
 
-Cloudbench
-
+Cloudbench:
 * 1231 lines total
 * 2 contributors
 * Commit 1: (a062af793fd2cc0ed8fbf1957400b4fe6d8777af) Added description of repository as a readme
 * Commit 38: (62c4fc23bbc7016a0234b15d61f8a6d317f32654) Merged a pull request that added files for static javascript functionality.
 * Branches: master - copy - gh-pages - new_ui - nodes - tmp_branch
+
+Comparison
+
+Observatory:
+
+Auto Route:
+
+SharpNav:
+ 
+SplitScreen:
+
+Cloudbench:
+
