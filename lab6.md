@@ -126,4 +126,6 @@ SplitScreen:
 
 <put youtube link here>
 
+GitStats Screenshot
+
 ![gitstats](/images/gitstats.png)
