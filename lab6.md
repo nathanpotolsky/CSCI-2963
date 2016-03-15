@@ -129,3 +129,33 @@ SplitScreen:
 GitStats Screenshot
 
 ![gitstats](/images/gitstats.png)
+
+#Part 2
+
+Link for the two .py files
+
+https://github.com/nathanpotolsky/CSCI-2963/tree/master/lab6
+
+Output
+
+$ python test_markdown_unittest.py -v
+
+test_Block (__main__.TestMarkdownPy) ... ok
+
+test_H1 (__main__.TestMarkdownPy) ... ok
+
+test_H2 (__main__.TestMarkdownPy) ... ok
+
+test_H3 (__main__.TestMarkdownPy) ... ok
+
+test_em (__main__.TestMarkdownPy) ... ok
+
+test_non_marked_lines (__main__.TestMarkdownPy) ... ok
+
+test_strong (__main__.TestMarkdownPy) ... ok
+
+----------------------------------------------------------------------
+
+Ran 7 tests in 0.886s
+
+OK
