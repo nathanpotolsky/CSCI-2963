@@ -108,7 +108,7 @@ This is a pretty small project with few contributors, so I don't expect there to
 
 Observatory:
 
-<put youtube link here>
+https://www.youtube.com/watch?v=G-tW3lqUTbI
 
 Auto-Route:
 
@@ -116,15 +116,15 @@ https://www.youtube.com/watch?v=-fNPgo-nkYM
 
 SharpNav:
 
-<put youtube link here>
+https://www.youtube.com/watch?v=_jtZgbA17o0
 
 CloudBench:
 
-<put youtube link here>
+https://www.youtube.com/watch?v=TCaG8_DLJsY
 
 SplitScreen:
 
-<put youtube link here>
+https://www.youtube.com/watch?v=RsUDFDfWQN0
 
 GitStats Screenshot
 
