@@ -1,0 +1,7 @@
+When doing this command in lab9
+mongoexport --host=127.0.0.1 --db csci2963 --collection definitions --out definitions.json
+if you're on windows at least, replace the
+definitions.json
+with the path of the json file in quotes
+For example, this is what I used
+mongoexport --host=127.0.0.1 --db csci2963 --collection definitions --out "C:\cygwin64\home\Nathan\Open Source\lab9\csci2963_mongodb_lab\definitions.json"
