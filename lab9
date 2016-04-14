@@ -5,3 +5,7 @@ definitions.json
 with the path of the json file in quotes
 For example, this is what I used
 mongoexport --host=127.0.0.1 --db csci2963 --collection definitions --out "C:\cygwin64\home\Nathan\Open Source\lab9\csci2963_mongodb_lab\definitions.json"
+
+https://github.com/nathanpotolsky/CSCI-2963/blob/master/images/mongo1.png
+https://github.com/nathanpotolsky/CSCI-2963/blob/master/images/mongo2.png
+https://github.com/nathanpotolsky/CSCI-2963/blob/master/images/mongo3.png
